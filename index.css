@@ -1,0 +1,247 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #5c5858 url('PIC2.JPG') no-repeat center center fixed;
+      background-size: cover;
+      color: #bd9797;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 10px 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      max-width: 70%;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .header-text p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+
+    .header-img {
+      height: 150px;
+      width: auto;
+      border-radius: 10px;
+    }
+    .video-section{
+      text-align: center;
+    }
+    figure{
+      border-radius: 20px;
+    }
+    figcaption{
+      text-align: center;
+      font-size: larger;
+    }
+    h1{
+      color: aqua;
+    }
+
+    h2 {
+      color: #1a94d6;
+    }
+
+    h4 {
+      color: white;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .resume-button {
+      background-color: #064f71;
+      color: white;
+      padding:10px 10px;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .resume-button:hover {
+      background-color: #0d5510;
+    }
+
+    section {
+      padding: 50px;
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      margin: 0 10px;
+      font-size: 18px;
+    }
+
+    footer a:hover {
+      color: #1a94d6;
+    }
+
+    #contact{
+      color: white;
+      font-size: larger;
+    }
+
+    .email{
+      color: lightblue;
+      font-size: larger;
+    }
+    .github{
+      color: white;
+      font-size: large;
+    }
+    #p{
+      color: white;
+    }
+    nav a {
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    margin-right: 15px;
+  }
+    
+
+   
+@media (max-width: 768px) {
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: #0e0707;
+    text-align: center;
+  }
+
+  .header-text h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    color: white;
+  }
+
+  .header-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(218, 213, 213);
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+
+  nav a:hover {
+    background: #0056b3;
+  }
+
+  .header-img {
+    width: 120px;
+    height: 150px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  section {
+    padding: 1rem;
+  }
+
+  .video-section iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  .github{
+    color: lightblue;
+    font-size: 100%;
+  }
+  #contact{
+    color: white;
+    font-size: 100%;
+  }
+
+  .email{
+    color: lightblue;
+    font-size: 100%;
+  }
+  #files{
+    padding-right: 60%;
+  }
+
+}
+
+
+
+
+    
